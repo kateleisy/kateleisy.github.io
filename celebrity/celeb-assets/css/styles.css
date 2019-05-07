@@ -24,6 +24,7 @@ h1 {
     margin:150px auto 100px auto;
     max-width:60%;
     text-align:center;
+    height:100%;
 }
 
 h2 {
@@ -118,7 +119,8 @@ img {
     border-left: 80px solid transparent;
     border-right: 80px solid transparent;
     border-top: 80px solid #D700E4;
-    margin: 80px auto 0px auto;
+    margin: 100px auto 0px auto;
+    padding-bottom:50px;
 }
 
 div.two {
@@ -131,7 +133,7 @@ div.two {
 .messages {
     width:100%;
     background-color:white;
-    margin:50px auto 0px auto;
+    margin:100px auto 0px auto;
     padding-top:100px;
     padding-bottom:50px;
 }
@@ -167,13 +169,13 @@ div.two {
 .time3 {
     position: relative;
     right:0;
-    margin-left:525%;
+    margin-left:530%;
 }
 
 .time4 {
     position: relative;
     right:0;
-    margin-left:615%;
+    margin-left:630%;
 }
 
 hr {
@@ -208,7 +210,7 @@ h2.backtomessages {
 
 h2.game {
     text-align:center;
-    margin:100px auto 0px auto;
+    margin:150px auto 0px auto;
     width:50%;
 }
 
@@ -349,7 +351,7 @@ h2.game {
     line-height: 1.3;
     text-align: left;
     padding:15px 10px 0px 20px;
-    margin: 0px 0px 0px 0px;
+    margin: 0px 30px 0px 0px;
 }
 
 .said {
@@ -373,7 +375,7 @@ div.two {
     vertical-align: middle;
     line-height:0;
     padding:5px 10px 0px 20px;
-    margin: 100px 0px 0px 60px;
+    margin: 80px 0px 0px 60px;
 }
 
 
@@ -385,7 +387,7 @@ div.game1-thread.large {
 
 .cool {
     margin: 0px 60px 0px 0px;
-    width: 320px;
+    width: 330px;
     height:100px;
 }
 
@@ -399,7 +401,7 @@ div.game1-thread.large {
 }
 
 .where {
-    height:250px;
+    height:240px;
     line-height:1.2;
 }
 
