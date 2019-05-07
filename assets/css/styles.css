@@ -1,5 +1,378 @@
 body{
-    background: yellow;
+    background:#E7F7FF;
     font-size: 24px;
-    font-family: 'Libre Barcode 39', cursive;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    margin:0;
+    padding:0;
 }
+
+h1 {
+    font-size:100px;
+    color:#000;
+    font-weight:600;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color:#D700E4;
+    line-height:0;
+    margin:80px auto 0px auto;
+    text-align:center;
+    
+}
+
+.intro {
+    margin:150px auto 100px auto;
+    max-width:50%;
+    text-align:center;
+}
+
+h2 {
+    font-size:40px;
+    color:#000;
+    font-weight:600;
+    line-height:1.2;
+    margin: 0px auto 0px auto;
+    text-align:center;
+    justify-content: left;
+}
+
+h3 {
+    font-size:20px;
+    font-weight:600;
+}
+
+h4 {
+    font-size:16px;
+    font-weight:500;
+    color: gray;
+}
+
+h5 {
+    font-size:100px;
+    font-weight:600;
+    display:inline-block;
+    margin:20px 20px 0px 20px;
+    color:lightgrey;
+    vertical-align: middle;
+    text-align: center;
+    line-height:200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width:100%;
+    margin:0;
+}
+
+.button {
+    width:300px;
+    height:100px;
+    border-radius:10px;
+    background-color:#D700E4;
+    z-index:100;
+    color:white;
+    margin: 0px auto 0px auto;
+    text-align:center;
+    vertical-align: middle;
+    line-height:100px;
+    font-size:35px;
+}
+
+.button:hover {
+    background-color:#fff;
+    color:#D700E4;
+    transition: 0.2s ease-in;
+}
+
+.celebface {
+    margin-top:-600px;
+    z-index:-10;
+    position:relative;
+}
+
+.celebface img {
+    z-index:-10;
+
+}
+
+/* game intro page */
+
+
+.back {
+    /* margin-top:150px; */
+    width:200px;
+    height:100px;
+    margin: 30px 0px 0px 20px;
+    position: absolute;
+    float:left;
+    top:0;
+    font-size:24px;
+}
+
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-top: 80px solid #D700E4;
+    margin: 80px auto 0px auto;
+}
+
+div.two {
+    margin-top:100px;
+}
+
+    /* messages on the game intro page */
+
+
+.messages {
+    width:100%;
+    background-color:white;
+    margin:50px auto 0px auto;
+    padding-top:100px;
+    padding-bottom:50px;
+}
+
+.thread {
+    margin:50px auto 0px auto;
+    vertical-align: middle;
+    border: 1px solid lightgrey;
+    width:60%;
+    padding:20px 0px 10px 0px;
+}
+
+.thread-items {
+      padding:20px;
+}
+
+.name {
+    position:absolute;
+}
+
+.time {
+    position: relative;
+    right:0;
+    margin-left:400%;
+}
+
+hr {
+    height:1px;
+    background-color:lightgrey;
+    width:60%;
+    margin:10px 0px 30px 0px;
+}
+
+.profile-image {
+    display:inline-block;
+}
+
+.profile-image img {
+    width:100px;
+    height:100px;
+    border-radius:50%;
+}
+
+.profile-text {
+    display:inline-block;
+    padding: 0px 0px 10px 50px;
+    text-align:center;
+    vertical-align: top;
+}
+
+h2.backtomessages {
+    margin-bottom:100px;
+}
+
+  /* message thread game1 page */
+
+h2.game {
+    text-align:center;
+    margin:100px auto 0px auto;
+    width:50%;
+}
+
+
+.game1-thread {
+    margin:100px 300px 100px 300px;
+    height:1200px;
+    background-color:white;
+    position:relative;
+}
+
+.thread-header {
+    background-color: #F8F8F8;
+    text-align:center;
+    margin:auto;
+    padding:20px;
+}
+
+.thread-header h3 {
+    position:relative;
+    font-weight:400;
+    color:grey;
+}
+
+  /* first blue selector messages */
+
+
+.blue-messages {
+    display:flex;
+    flex-direction: row;    
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: flex-end;
+    margin-top:100px;
+}
+
+.left-blue-message {
+    width:300px;
+    height:100px;
+    border-radius:15px;
+    background-color:#0081F8;
+    text-align:center;
+    color:white;
+    font-size:32px;
+    float:left;
+    vertical-align: middle;
+    line-height:100px;
+}
+
+.right-blue-message {
+    width:300px;
+    height:100px;
+    border-radius:15px;
+    background-color:#0081F8;
+    text-align:center;
+    color:white;
+    font-size:32px;
+    float:right;
+    vertical-align: middle;
+    line-height:100px;
+}
+
+  /* bottom x bar */
+
+
+.x-bar {
+    background-color: #F8F8F8;
+    text-align:center;
+    margin:auto;
+    padding:0px;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:200px;
+    vertical-align: middle;
+}
+
+  /* game1 right answer page */
+
+
+.messages .right {
+    display:flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    margin-top:100px;
+}
+
+.correct {
+    float:right;
+    vertical-align: middle;
+    line-height:100px;
+    margin: 0px 60px 0px 0px;
+}
+
+.first-grey-message {
+    width:250px;
+    height:100px;
+    border-radius:15px;
+    background-color:#E4E4E9;
+    text-align:center;
+    color:#252525;
+    font-size:32px;
+    float:left;
+    vertical-align: middle;
+    line-height:100px;
+    margin: 150px 0px 0px 60px;
+}
+
+.firstreply img {
+    max-height:60px;
+    margin:0px auto 0px auto;
+    padding: 15px 10px 15px 10px;
+}
+
+.roundtwo {
+    margin:400px 0px 0px 0px;
+}
+
+.lunch {
+    height:110px;
+    line-height: 1.3;
+    text-align: left;
+    padding:15px 10px 0px 20px;
+    margin: 0px 220px 0px 0px;
+}
+
+.said {
+    margin: 0px 0px 0px 50px;
+}
+
+div.two {
+    float:right;
+    vertical-align: middle;
+    line-height:1.3;
+    text-align: left;
+    height: 110px;
+    padding:15px 10px 0px 20px;
+    margin: 200px 60px 0px 200px;
+}
+
+.secondreply {
+    height:225px;
+    width:350px;
+    text-align: left;
+    vertical-align: middle;
+    line-height:0;
+    padding:5px 10px 0px 20px;
+    margin: 240px 0px 0px 60px;
+}
+
+
+div.game1-thread.large {
+    height:1400px;
+}
+
+  /* game1 second right answer page */
+
+.cool {
+    margin: 0px 220px 0px 0px;
+    width: 320px;
+    height:100px;
+}
+
+.three {
+    float:right;
+    vertical-align: middle;
+    line-height:100px;
+    text-align: center;
+    padding:0px 0px 0px 10px;
+    margin: 200px 60px 0px 200px;
+}
+
+.where {
+    height:250px;
+    line-height:1.2;
+}
+
+  /* red X */
+
+  .red{
+      color:red;
+  }
